@@ -1,30 +1,18 @@
+Project Overview: Provide a brief overview of the project, mentioning that it involves analyzing credit card transactions and customer data using Power BI.
 
-Credit Card Weekly Dashboard
+Data Source and Structure: Explain the structure of the data source, mentioning that it consists of two tables in a PostgreSQL database: cc_detail and cust_detail. Describe the key fields present in each table.
 
-This repository contains a comprehensive credit card weekly dashboard designed to provide real-time insights into key performance metrics and trends. It enables stakeholders to effectively monitor and analyze credit card operations, facilitating informed decision-making.
+Power BI Dashboards: Detail the two main dashboards created using Power BI:
+Credit Card Transaction Analysis Dashboard: Describe the insights it provides, such as total revenue, total interest, quarterly revenue, and total transaction count. Highlight the inclusion of a week-on-week growth measure for tracking performance.
 
-Project Objective:
+Credit Card Customer Report Dashboard: Explain its focus on customer demographics, including distributions by age and gender, customer satisfaction score analysis, and income distribution by gender.
 
-The primary goal of this project is to develop a dynamic dashboard that offers insights into various aspects of credit card operations. By visualizing key performance metrics and trends in real-time, stakeholders can gain a deeper understanding of the business landscape, allowing for more strategic and data-driven decisions.
+Usage Instructions: Provide step-by-step instructions on how to use the Power BI reports:
 
-Importing Data to SQL Database:
+Write SQL queries to load data from PostgreSQL into Power BI.
 
-Prepare CSV File: Before importing data into the SQL database, ensure that the CSV file containing relevant data is properly prepared, organized, and formatted.
-Create Tables in SQL: Define appropriate tables in the SQL database to accommodate the imported data. Consider the structure and relationships between different data entities to ensure efficient data storage and retrieval.
-Import CSV File into SQL: Utilize SQL commands or tools to import the prepared CSV file into the corresponding tables in the SQL database. Verify the integrity of the imported data to ensure accuracy and completeness.
+Import the data into Power BI.
 
-Project Insights - Week 53 (31st Dec):
+Set up necessary measures and filters for the dashboards.
 
-Week-over-Week (WoW) Change:
-Revenue increased by 28.8%
-Total Transaction Amount & Count increased by xx% & xx%
-Customer count increased by xx%
-Overview Year-to-Date (YTD):
-Overall revenue is 57M
-Total interest is 8M
-Total transaction amount is 46M
-Male customers contribute 31M, female customers contribute 26M to revenue
-Blue & Silver credit cards contribute to 93% of overall transactions
-TX, NY & CA contribute to 68% of transactions
-Overall Activation rate is 57.5%
-Overall Delinquent rate is 6.06%
+Explore the visualizations to gain insights into credit card transactions and customer demographics.
